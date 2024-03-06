@@ -1,0 +1,35 @@
+.left_s {
+  justify-content: space-between;
+}
+.left_s,
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.name > :first-child {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.name > :nth-child(2) {
+  font-size: 0.7rem;
+}
+.left_s > :nth-child(2) {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.left_s > :nth-child(3) {
+  width: max-content;
+  font-size: 0.6rem;
+  padding: 5px 10px;
+  border: 1px solid var(--black);
+  border-radius: 15px;
+}
+.img_p {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  right: 0;
+  bottom: -25%;
+  transform: rotate(-20deg);
+
+}

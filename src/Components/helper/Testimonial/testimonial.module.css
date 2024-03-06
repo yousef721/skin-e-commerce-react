@@ -1,0 +1,33 @@
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 3rem -50px #7d7d7d;
+  padding: 1rem;
+  gap: 1rem;
+}
+.testimonial > img {
+  position: absolute;
+  width: 3rem;
+  top: -1.5rem;
+  left: 45%;
+}
+.testimonial > :nth-child(2) {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+}
+.testimonial > :nth-child(3) {
+  width: 80%;
+  height: 1px;
+  background: #c6c6c6;
+  border: none;
+}
+.testimonial > :nth-child(3) {
+  font-weight: 500;
+}
